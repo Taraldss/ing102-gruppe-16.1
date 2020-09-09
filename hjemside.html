@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meny2.css">
+    <title>CHABO AS</title>
+</head>
+<body>
+    
+    <!--"Landingsside hvor tjenesten kort presenteres. Fra landingssiden skal brukeren kunne finne frem til et ladepunkt ved å velge fylke og/eller kommune og/eller by/sted fra lister (i meny)."-->
+    
+    <!--Hjemmeside med bilde av produkt og enkel produktbeskrivelse-->
+    
+    <h1>Chabo AS (står i meny)</h1>
+    
+    <h2>Fremtiden av lading har ankommet</h2>
+    
+    <img src="ladestasjon.jpeg" width="900">
+    
+    
+	<h2>Ladestasjoner</h2>
+    
+    <h3>Type 1 (ABB Terra 53) - 50KW</h3>
+    <p id="eksInfo">(Eksempel på info: ABB er ledende innen Internett-tilkoblede ladere, som støtter alle EV-ladestandarder, og som grensesnitt til enhver operasjons-, service- og betalingsapplikasjon. Designet for kontinuerlig full 50 kW levering. Den modulære konstruksjonen sørger for fortsatt drift. Tilkoblingen muliggjør fjernovervåking, støtte og SW-oppgraderinger. Robust kabinett i rustfritt stål, bredt temperaturområde, lav driftsstøy.)</p>
+    
+    
+    <h3>Type 2 - 75KW</h3>
+    <p>(INFO)</p>
+    
+    <h3>CHAdeMO - 150KW</h3>
+    <p>(INFO)</p>
+    
+    <h3>CCS - 250KW</h3>
+    <p>(INFO)</p>
+    
+    
+    <!--Test av Google Maps-->
+    <div id="maps">
+        <h2>Google maps test</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d504.9747066761608!2d5.320669940412233!3d60.39762423976851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463cfc1da7d352f5%3A0x19b4b2c345e4c74b!2sDreggekaien!5e0!3m2!1sen!2sno!4v1599052761871!5m2!1sen!2sno" width="500" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+    });
+}
+</script>
+    
+    
+</body>
+</html>
