@@ -1,0 +1,119 @@
+/* Navbar */
+
+.full-height {
+    min-height: 100vh;
+}
+.half-height{
+    min-height: 50vh;
+}
+.blue {background-color: blue;}
+.red { background-color: red;}
+.green {background-color: green;}
+
+.a {
+    text-decoration: none;
+    color: white
+}
+ 
+nav {
+    background: black;
+    position: fixed;
+    width: 100%;
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  
+li {
+    color: #fff;
+    display: block;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+}
+    
+li a {
+    color: #fff;
+}
+  
+li:hover {
+    background: grey;
+    cursor: pointer;
+}
+  
+.drop-menu {
+    background: black;
+    visibility: hidden;
+    opacity: 0;
+    min-width: fit-content;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+  
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+  
+ul li ul li {
+    clear: both;
+    width: fit-content;
+}
+
+
+  /*main page */
+.flex {
+    display: flex;
+}
+.flex.-column {
+    flex-direction: column;
+}
+.flex.-vcenter {
+    justify-content: center;
+}
+.flex.-hcenter {
+    align-items: center;
+}
+.container-1 {
+  flex-direction: column;
+}
+.flex.-left {
+    margin-left: auto;
+}
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.scroller {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.scroller section {
+    scroll-snap-align: start;
+} 
+.sub-boxes {
+    flex-direction: row;
+    width: 100%;
+}
+.sub-box-1 {
+    width: 50%;
+    flex-direction: column;
+}
+.sub-box-2 {
+    width: 50%;
+    flex-direction: column;
+}
+
