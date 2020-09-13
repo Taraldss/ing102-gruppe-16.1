@@ -115,6 +115,7 @@ body{
 
 .nether-box {
     background-color: slategray;
+    min-height: 25vh;
 }
 table, th, td {
     border: 1px solid black;
