@@ -13,9 +13,12 @@ html {
 .red { background-color: red;}
 .green {background-color: green;}
 
-.a {
+.a-nav {
     text-decoration: none;
     color: white
+}
+.a{
+    color: black;
 }
  
 nav {

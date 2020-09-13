@@ -3,20 +3,21 @@
 <head>
 <title></title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav class="nav-container flex">
         <ul class="flex">
-            <li><a href="hjemmeside.html" class="a">Home</a></li>
-            <li><a href="#" class="a">Locations</a>
+            <li><a href="hjemmeside.html" class="a-nav">Home</a></li>
+            <li><a href="#" class="a-nav">Locations</a>
                 <ul class="drop-menu"> 
-                    <li><a href="Bergen_kommune.html" class="a">Ladestasjoner Bergen</a></li>
-                    <li><a href="Stavanger-kommune.html" class="a">Ladestasjoner Stavanger</a></li>
+                    <li><a href="Bergen_kommune.html" class="a-nav">Ladestasjoner Bergen</a></li>
+                    <li><a href="Stavanger-kommune.html" class="a-nav">Ladestasjoner Stavanger</a></li>
                 </ul>
             </li>
-            <li class="flex -left"><a href="aboutus.html" class="a flex -left">About</a></li>
+            <li class="flex -left"><a href="aboutus.html" class="a-nav flex -left">About</a></li>
         </ul>
     </nav>
 
@@ -25,8 +26,18 @@
         <h1>Bergen Kommune</h1>
         <p>Nedenfor finner du oversikt over våre ladestasjoner for el båter i Bergen kommune.<br> 
             Husk å sjekke at ladestasjonen har riktig type ladekontakt.</p>
-    </div>   
-    <div class="flex -hcenter -vcenter">
+    </div>
+    <div class="flex -hcenter -vcenter full-height"> 
+        <div class="sub-box-1 flex -hcenter -vcenter full-height -column">
+            <h2>Ladestasjon Skutevik</h2>
+            <p>Kart over Skutevik</p>
+        </div>
+        <div class="sub-box-1 flex -hcenter -vcenter full-height -column">
+            <h2>Ladestasjon Gravdalsviken</h2>
+            <p>Kart over Gravdalsviken</p>
+        </div>
+    </div>    
+    <div class="flex -hcenter">
         <table style="width:100%" class="table">
         <tr>
             <th>Område</th>
@@ -52,19 +63,9 @@
             </tr>
         </table>
     </div>
-    <div class="flex -hcenter -vcenter full-height"> 
-        <div class="sub-box-1 flex -hcenter -vcenter full-height -column">
-            <h2>Ladestasjon Skutevik</h2>
-            <p>Kart over Skutevik</p>
-        </div>
-        <div class="sub-box-1 flex -hcenter -vcenter full-height -column">
-            <h2>Ladestasjon Gravdalsviken</h2>
-            <p>Kart over Gravdalsviken</p>
-        </div>
-    </div>
     <div class="flex full-height -vcenter -hcenter column">
         <h1>Berekna ladetid(kommer snart)</h1>
-    </div>  
+    </div> 
 </div>
     
     
