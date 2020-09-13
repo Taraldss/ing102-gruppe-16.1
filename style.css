@@ -112,8 +112,10 @@ body{
     width: 50%;
     flex-direction: column;
 }
-.sub-box-2 {
-    width: 50%;
-    flex-direction: column;
-}
 
+.nether-box {
+    background-color: slategray;
+}
+table, th, td {
+    border: 1px solid black;
+  } 

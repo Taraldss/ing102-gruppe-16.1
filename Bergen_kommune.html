@@ -6,43 +6,63 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="over"><h1>Oversikt Bergen Kommune</h1></div>
 
-<div class="txt">
-    <p>Nedenfor finner du oversikt over våre ladestasjoner for el båter i Bergen kommune. 
-        Husk å sjekke at ladestasjonen har riktig type ladekontakt. 
-        Du kan navigere ved bruk av GEO posisjon eller ved hjelp av vår navigeringsside.</p>
-    </div>    
+    <nav class="nav-container flex">
+        <ul class="flex">
+            <li><a href="hjemmeside_TrondErik.html" class="a">Home</a></li>
+            <li><a href="#" class="a">Locations</a>
+                <ul class="drop-menu"> 
+                    <li><a href="Bergen_kommune.html" class="a">Ladestasjoner Bergen</a></li>
+                    <li><a href="Stavanger-kommune.html" class="a">Ladestasjoner Stavanger</a></li>
+                </ul>
+            </li>
+            <li class="flex -left"><a href="aboutus.html" class="a flex -left">About</a></li>
+        </ul>
+    </nav>
 
-<div class="tabell">
-    <table style="width:75%">
-    <tr>
-        <th>Område</th>
-        <th>Adresse</th>
-        <th>GEO posisjon</th>
-        <th>Type ladekontakt</th>
-        <th>Ladeeffekt</th>
-        <th>Bilde</th>
-        </tr>
-    <tr>
-        <td>Bergen</td>
-        <td>Skutevik</td>
-        <td>60°24'09.6"N 5°19'12.3"E</td>
-        <td>Type 1 og 2</td>
-        <td>140 kWh</td>
-        <td><img src="Skutevik.png"></td>
-        </tr>
-    <tr>
-        <td>Laksevåg</td>
-        <td>Gravdalsviken</td>
-        <td>60°23'26.2"N 5°15'37.7"E</td>
-        <td>Type 2</td>
-        <td>140 kWh</td>
-        <td><img src="Gravdalsvik.png"></td>
-        
-        </tr>
-    </table></div>
-    
+<div class="flex container-1">
+    <div class="flex -hcenter -vcenter -column half-height blue">
+        <h1>Bergen Kommune</h1>
+        <p>Nedenfor finner du oversikt over våre ladestasjoner for el båter i Bergen kommune.<br> 
+            Husk å sjekke at ladestasjonen har riktig type ladekontakt.</p>
+    </div>   
+    <div class="flex -hcenter -vcenter green">
+        <table style="width:75%">
+        <tr>
+            <th>Område</th>
+            <th>Adresse</th>
+            <th>GEO posisjon</th>
+            <th>Type ladekontakt</th>
+            <th>Ladeeffekt</th>
+            </tr>
+        <tr>
+            <td>Bergen</td>
+            <td>Skutevik</td>
+            <td>60°24'09.6"N 5°19'12.3"E</td>
+            <td>Type 1 og 2</td>
+            <td>140 kWh</td>
+            </tr>
+        <tr>
+            <td>Laksevåg</td>
+            <td>Gravdalsviken</td>
+            <td>60°23'26.2"N 5°15'37.7"E</td>
+            <td>Type 2</td>
+            <td>140 kWh</td>
+            
+            </tr>
+        </table>
+    </div>
+    <div class="flex -hcenter -vcenter full-height"> 
+        <div class="sub-box-1 flex -hcenter -vcenter full-height -column red">
+            <h2>Ladestasjon Skutevik</h2>
+            <p>Kart over Skutevik</p>
+        </div>
+        <div class="sub-box-1 flex -hcenter -vcenter full-height -column blue">
+            <h2>Ladestasjon Gravdalsviken</h2>
+            <p>Kart over Gravdalsviken</p>
+        </div>
+    </div>  
+</div>
     
     
 </body>    
