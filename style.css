@@ -1,5 +1,7 @@
 /* Navbar */
-
+html {
+    max-width: initial;
+}
 .full-height {
     min-height: 100vh;
 }
@@ -111,6 +113,7 @@ body{
 .sub-box-1 {
     width: 50%;
     flex-direction: column;
+    height: 100%;
 }
 
 .nether-box {
