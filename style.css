@@ -44,6 +44,9 @@ li {
 li a {
     color: #fff;
 }
+a {
+    color: #ffffee;
+}
   
 li:hover {
     background: grey;
@@ -122,3 +125,21 @@ p{
     line-height: 1.8;
     padding: 15px;
 }
+.framside {
+    background-image: url(mulig_bakgrunn.jpg);
+
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    font-family: sans; color: ivory;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub1{
+    background-color: #e6f2ff;
+}
+.sub2{
+    background-color: #cce5ff;
+}
+
