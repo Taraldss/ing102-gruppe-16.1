@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flysim</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="nav-container flex">
+        <ul class="flex">
+            <li><a href="hjemmeside.html" class="a-nav">Home</a></li>
+            <li><a class="a-nav">Locations</a>
+                <ul class="drop-menu"> 
+                    <li><a href="Bergen_kommune.html" class="a-nav">Ladestasjoner Bergen</a></li>
+                    <li><a href="Stavanger-kommune.html" class="a-nav">Ladestasjoner Stavanger</a></li>
+                </ul>
+            </li>
+            <li><a href ="flysim.html" class="a-nav flex -left">Flysim</a></li>
+            <li class="flex -left"><a href="aboutus.html" class="a-nav flex -left">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container-1 flex -column">
+        <div class="flex -hcenter -vcenter -column full-height">
+            <h1>Flysimulator</h1>
+            <p>Vi har valgt oppgava flysim i matlab, og nedenfor 
+                er resultatet frå arbeidet vårt</p>
+        </div>
+        <div class="flex -hcenter -vcenter -column full-height">
+            <div class="sub-boxes flex -hcenter half-height -column">
+                <img src="flysimNormal.PNG" width="800" height="500" alt="normal">
+                <p>Her er hvordan flysimulatoren såg ut før vi begynte.</p>
+            </div>
+        </div>
+        <div class="sub-boxes flex -vcenter full-height -column">
+            <div class="sub-boxes flex -vcenter half-height">
+                <img src="flysim_ice.PNG" width="500" height="300" alt="ice">
+                <img src="flysim_maxfart.PNG" width="500" height="300" alt="maxfart">
+            </div>
+            <div class="sub-boxes flex -vcenter">
+                <p>Forandringar vi har gjort er å  sette ei maksfart grense slik <br>
+                   at ein ikkje kan aksellerere nårt farten er større en 950. <br>
+                   Vi har også lagt inn en knapp for å skifte naturen flyet flyr i. </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
